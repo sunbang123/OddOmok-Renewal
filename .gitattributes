@@ -1,0 +1,30 @@
+* text=auto
+*.cs text
+*.js text
+*.txt text
+*.md text
+*.json text
+*.xml text
+*.yml text
+*.yaml text
+
+# Unity specific
+*.unity text
+*.prefab text
+*.mat text
+*.asset text
+*.meta text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.psd binary
+*.ai binary
+*.tga binary
+*.tiff binary
+*.dll binary
+*.exe binary
+*.so binary
+*.unitypackage binary

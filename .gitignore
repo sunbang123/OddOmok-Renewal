@@ -97,3 +97,43 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# ===== Photon Fusion 2 Specific =====
+# Photon 관련 로그 파일들
+PhotonFusion*.log
+photon*.log
+
+# Photon 설정 중 민감한 정보가 포함될 수 있는 파일들
+# (App ID 등이 포함된 경우 주의 - 팀 작업시에는 공유 필요할 수도 있음)
+# /[Aa]ssets/Photon/Fusion/Resources/NetworkProjectConfig.asset
+
+# 플레이어 데이터 및 세이브 파일
+PlayerData/
+SaveData/
+
+# 로컬 멀티플레이어 테스트 빌드
+LocalMultiplayer/
+
+# 성능 프로파일링 데이터
+*.mlpd
+
+# 긴 경로 문제를 피하기 위해 PackageCache 전체 무시 (이미 Library에 포함됨)
+# Library/PackageCache/
+
+# ===== OS and IDE Specific =====
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+.Runtime
