@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Scenes
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Scenes
+  m_GUID: 7ffe5d7f25a8c18419f70aac86a07498
+  m_SerializeEntries:
+  - m_GUID: 5288a1cd86204454fbf6e42ec2e292c5
+    m_Address: Assets/@Scenes/Game.unity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - FusionScenes
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 3f0fb73ebfb58a340a46378080d74701, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: cc54533c135aa2348ac3e33d8d9ddf51, type: 2}
+    - {fileID: 11400000, guid: f1d462d9b7a0dd741acdf367d5a3bb6f, type: 2}
