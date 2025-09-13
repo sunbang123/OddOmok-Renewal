@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Check
   layers:
   - Default
   - TransparentFX
@@ -12,9 +13,9 @@ TagManager:
   - Water
   - UI
   - Board
-  - Stone
+  - Spawn
   - Enemy
-  - 
+  - Object
   - 
   - 
   - 

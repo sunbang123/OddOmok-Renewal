@@ -73,7 +73,7 @@ public class CameraRaycast : MonoBehaviour
         Ray ray = mainCamera.ScreenPointToRay(screenPosition);
         Debug.DrawRay(mainCamera.transform.position, ray.direction * 150.0f, Color.red, 1.0f);
 
-        LayerMask mask = LayerMask.GetMask("Stone") | LayerMask.GetMask("Board") | LayerMask.GetMask("Enemy");
+        LayerMask mask = LayerMask.GetMask("Spawn") | LayerMask.GetMask("Board") | LayerMask.GetMask("Enemy");
         RaycastHit hit;
 
         if (Physics.Raycast(ray, out hit, 150.0f, mask))
@@ -83,7 +83,7 @@ public class CameraRaycast : MonoBehaviour
 
             if (hit.collider.gameObject.layer == 7)
             {
-                Debug.Log("Hit a Stone object!");
+                Debug.Log("Hit a Spawn object!");
                 // Stone 레이어에 대한 추가 처리 로직
                 return;
             }

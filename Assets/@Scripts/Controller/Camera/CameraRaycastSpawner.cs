@@ -84,12 +84,14 @@ public class CameraRaycastSpawner : NetworkBehaviour
         NetworkPrefabRef prefabToUse = GetPlayerPrefab();
 
         UnityEngine.Transform hitTransform = hit.transform;
+        // Raycast로 충돌한 오브젝트의 LayerMask를 "Stone"으로 변경
+        hitTransform.gameObject.layer = 7;
+
         // Prefab 생성
         NetworkObject spawnedPrefab = Runner.Spawn(prefabToUse, hitTransform.position, Quaternion.identity, Runner.LocalPlayer);
         spawnedPrefab.tag = "Player";
-
-        // Raycast로 충돌한 오브젝트의 LayerMask를 "Stone"으로 변경
-        hitTransform.gameObject.layer = 7;
+        // 생성한 오브젝트의 LayerMask를 "Object"로 변경
+        spawnedPrefab.gameObject.layer = 9;
     }
 
     private bool TurnChecker()

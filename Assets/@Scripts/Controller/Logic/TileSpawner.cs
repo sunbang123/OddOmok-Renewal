@@ -17,7 +17,7 @@ public class TileSpawner : MonoBehaviour
 
     public void Start()
     {
-        GameObject tilemap = Instantiate(TilemapPrefab,Vector3.zero, Quaternion.Euler(90, 0, 0), GameBoardPrefab.transform);
+        GameObject tilemap = Instantiate(TilemapPrefab,Vector3.zero, Quaternion.Euler(90, 0, 180), GameBoardPrefab.transform);
 
         for (int i = 0; i < 13; i++)
         {
