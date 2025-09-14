@@ -22,6 +22,7 @@
 
 - 구성원 : 김선영
 
+- [Version 2 wiki](https://github.com/sunbang123/OddOmok-Renewal/wiki)
 
 ### 주제
 
